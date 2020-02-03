@@ -1,0 +1,15 @@
+<script>
+    function pulaLinha (){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var ano = 2020;
+    var anoInicio = 1500;
+    var mediaIdade = 28;
+
+    mostra("Se passaram " + Math.round((ano-anoInicio)/mediaIdade) + " gerações.");
+</script>
